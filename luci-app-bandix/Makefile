@@ -10,9 +10,9 @@ LUCI_DEPENDS:=+luci-base +luci-lib-jsonc +curl +bandix
 
 PKG_MAINTAINER:=timsaya
 
-PKG_VERSION:=0.12.9
+PKG_VERSION:=0.12.10
 PKG_RELEASE:=1
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
-# call BuildPackage - OpenWrt buildroot signature 
+# call BuildPackage - OpenWrt buildroot signature
